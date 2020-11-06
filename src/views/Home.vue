@@ -1,11 +1,12 @@
 <template>
-  <div class="home">
-    
-  </div>
+    <div class="home">demo</div>
 </template>
 
 <script>
 export default {
-  name: 'home',
-}
+    name: "home",
+    created() {
+        window.$get("/", {}, false).then((res) => {});
+    },
+};
 </script>
