@@ -1,5 +1,5 @@
 <template lang="pug">
-.demo demo
+.demo login
 </template>
 
 <script>

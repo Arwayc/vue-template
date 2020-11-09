@@ -1,10 +1,11 @@
 <template lang="pug">
-.demo demo
+.container
+    router-view
 </template>
 
 <script>
 export default {
-    name: "home",
+    name: "Common",
     created() {},
 };
 </script>

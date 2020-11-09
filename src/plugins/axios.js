@@ -21,8 +21,6 @@ service.interceptors.request.use(
         config.headers['Vsat-Auth-Token'] = getToken()
         loading = Loading.service({
                 text: '正在加载中......',
-                // lock: true,
-                // spinner: 'el-icon-loading',
                 background: 'rgba(255, 255, 255, 0.8)',
             });
         return config;
