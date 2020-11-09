@@ -1,7 +1,7 @@
 <template lang='pug'>
 .vsat-card
     .wrap
-        h2 登&nbsp;&nbsp;陆
+        h2 登&nbsp;&nbsp;录
         form
             .group
                 input(type="text", required="")
@@ -17,7 +17,7 @@
             el-checkbox(v-model="remembered") 记住我
             a 忘记密码？
         .footer(style="margin-top:10px;")
-            el-button(type="primary", style="float:right") 登&nbsp;&nbsp;陆
+            el-button(type="primary", style="float:right") 登&nbsp;&nbsp;录
 </template>
 
 <script>
@@ -54,6 +54,7 @@ export default {
 
 h2 {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h2 small {

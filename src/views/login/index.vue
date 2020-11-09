@@ -37,9 +37,8 @@ export default {
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
         background: url('../../assets/common/imgs/login-page-left.jpg');
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
+        background-size: cover;
+        background-position: 50%;
     }
 
     .login-wrap-right {
